@@ -9,7 +9,7 @@ pipeline {
 				   '''	
 			} 
 		}
-		Stage ("deploy') {
+		Stage ('deploy') {
 		parallel {
 		stage ('deploy1') {
 			steps {
